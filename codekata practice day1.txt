@@ -1,0 +1,413 @@
+1.Write a code to get the input in the given format and print the output in the given format
+
+Input Description:
+To take an integer value
+
+Output Description:
+Print the integer value
+
+Sample Input :
+2
+Sample Output :
+2
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+let a = userInput[0];
+console.log(a);
+
+  //end-here
+});
+
+
+2.Write a code to get the input in the given format and print the output in the given format
+
+Input Description:
+A single line contains integers separated by space
+
+Output Description:
+Print the integer list of integers separated by space
+
+Sample Input :
+2 3 4 5 6 7 8
+Sample Output :
+2 3 4 5 6 7 8
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  var a;
+  
+  a = userInput[0];
+  console.log(a);
+
+  //end-here
+});
+
+3.Write a code to get the input in the given format and print the output in the given format.
+
+Input Description:
+First-line indicates two integers which are the size of array and 'K' value. Second-line indicates an integer contains elements of an array.
+
+Output Description:
+Print the taken input in the same format.
+
+Sample Input :
+5 3
+1 2 3 4 5
+Sample Output :
+5 3
+1 2 3 4 5
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+  
+var a;
+a = userInput[0];
+var b;
+b = userInput[1];
+console.log(a);
+console.log(b);
+
+
+
+  //end-here
+});
+
+4.Write a code to get the input in the given format and print the output in the given format
+
+Input Description:
+First-line indicates two integers separated by space. Second-line indicates two integers separated by space. Third-line indicates two integers separated by space.
+
+Output Description:
+Print the input in the same format.
+
+Sample Input :
+2 4
+2 4
+2 4
+Sample Output :
+2 4
+2 4
+2 4
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+  
+var a, b, c;
+a = userInput[0];
+
+b = userInput[1];
+
+c = userInput[2];
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+
+  //end-here
+});
+
+5.Write a code to get the input in the given format and print the output in the given format
+
+Input Description:
+Three integers are given in line by line.
+
+Output Description:
+Print the integers in a single line separate by space.
+
+Sample Input :
+2
+4
+5
+Sample Output :
+2 4 5
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+var a;
+a = userInput[0];
+var b;
+b = userInput[1];
+var c;
+c = userInput[2];
+console.log(a,b,c);
+});
+
+6.Write a code to get the input in the given format and print the output in the given format
+
+Input Description:
+First-line indicates two integers separated by space. Second-line indicates three integers separated by space. Third-line indicates three integers separated by space
+
+Output Description:
+Print the input in the same format.
+
+Sample Input :
+2 5
+2 5 6
+2 4 5
+Sample Output :
+2 5
+2 5 6
+2 4 5
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+var a,b,c;
+
+a = userInput[0];
+b = userInput[1];
+c = userInput[2];
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+  
+
+  //end-here
+});
+
+7.Write a code to get the input in the given format and print the output in the given format
+
+Input Description:
+A single line contains a string.
+
+Output Description:
+Print the characters in a string separated by space.
+
+Sample Input :
+guvi
+Sample Output :
+g u v i
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+var name = userInput[0];
+var output = name.split('').join(' ')
+  console.log(output);
+
+  //end-here
+});
+
+8.Write a code to get the input in the given format and print the output in the given format.
+
+Input Description:
+A single line contains three float values separated by space.
+
+Output Description:
+Print the float value separated by line.
+
+Sample Input :
+2.3 4.5 7.8
+Sample Output :
+2.3
+4.5
+7.8
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+let name =userInput[0].split(" ");
+let i ;
+
+for(i=0;i<=name.length-1;i++)
+{
+    console.log(name[i]);
+}
+
+
+  //end-here
+});
+
+9.Write a code to get the input in the given format and print the output in the given format.
+
+Input Description:
+A single line contains a string.
+
+Output Description:
+Print the characters in a string separated by line.
+
+Sample Input :
+guvigeek
+Sample Output :
+g
+u
+v
+i
+g
+e
+e
+k
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+let name =userInput[0];
+let i ;
+
+for(i=0;i<=name.length-1;i++)
+{
+    console.log(name[i]);
+}
+
+
+  //end-here
+});
+
+10.Write a code to get the input in the given format and print the output in the given format.
+
+Input Description:
+A single line contains a string.
+
+Output Description:
+Print the characters in a string separated by comma.
+
+Sample Input :
+guvi
+Sample Output :
+g,u,v,i
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+var name = userInput[0];
+var output = name.split('').join(',')
+  console.log(output);
+
+  //end-here
+});
